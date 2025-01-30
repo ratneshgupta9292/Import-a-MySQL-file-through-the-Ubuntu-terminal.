@@ -1,0 +1,13 @@
+Ubuntu Terminal Though mysql import file
+
+
+mysql -u root -p
+show databases;
+USE mydatabase;
+SHOW TABLES;
+
+
+
+
+/opt/lampp/bin/mysql -u root
+/opt/lampp/bin/mysql -u root -p techm < /home/tm-66/Desktop/dbswgwfhdaljn2.sql
