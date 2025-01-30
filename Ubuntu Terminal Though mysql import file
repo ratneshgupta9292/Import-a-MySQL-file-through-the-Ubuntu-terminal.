@@ -1,13 +1,26 @@
 Ubuntu Terminal Though mysql import file
 
-
+Step 1 : First Go to mysql/phpmyadmin
 mysql -u root -p
+
+Step 2 : Check all Database 
 show databases;
+
+Step 3 : Select Select Database 
 USE mydatabase;
+
+Step 4 : check database table 
 SHOW TABLES;
 
 
 
+Step 5 : Import Database in Local server and also use the Live AWS and ther server
 
 /opt/lampp/bin/mysql -u root
+
+
+OR 
+
+Step 1 : Direct Database import file 
+
 /opt/lampp/bin/mysql -u root -p techm < /home/tm-66/Desktop/dbswgwfhdaljn2.sql
